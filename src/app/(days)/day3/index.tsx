@@ -12,7 +12,7 @@ const description = `
 const DayDetailsScreen = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <Stack.Screen options={{ title: "Day 2: Markdown" }} />
+      <Stack.Screen options={{ title: "Day 3: Markdown" }} />
       <Text>Day Details Screen</Text>
       <MarkdownDisplay>{description}</MarkdownDisplay>
       <Link href={"/day3/editor"} asChild>
